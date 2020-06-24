@@ -1,17 +1,18 @@
 import express from 'express';
 
-const app = express();
-const port = 3333;
+const app  = express();
+const port = 3334;
 
 app.get('/users', (request, response)=>{
   console.log('Listagem de usuários rodando na porta: ' + port);
 
-  response.json([
+  let users = [
     'Valdir',
     'Julia',
-    'Lila',
-    'Billy'
-  ]);
+    'Lila'
+  ]
+
+  response.json(users);
 });
 
 app.listen(port);
