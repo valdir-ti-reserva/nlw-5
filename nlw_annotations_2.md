@@ -50,4 +50,10 @@ Back-end da aplicação
 
    Utilização http://knexjs.org/ como query builder
 
- - 
+ - Criar o arquivo das rotas da aplicação
+
+ - Instalar a lib do knex
+
+ - Criar a pasta database dentro da pasta src, e dentro da pasta criada criar o arquivo connection.ts
+
+ - Configurar para utilizar o banco de dados sqlite3 e instalar a lib correspondente 
