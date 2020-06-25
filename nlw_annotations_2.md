@@ -57,3 +57,36 @@ Back-end da aplicação
  - Criar a pasta database dentro da pasta src, e dentro da pasta criada criar o arquivo connection.ts
 
  - Configurar para utilizar o banco de dados sqlite3 e instalar a lib correspondente 
+
+ - Identificar as entidades (tabelas do banco de dados) da aplicação
+
+   1- points (Pontos de coleta)
+
+   	- image
+   	- name
+   	- email
+   	- whattsapp
+   	- latitude
+   	- longitude
+   	- city
+   	- uf
+
+   2- items (itens para a coleta)
+
+   	- titulo
+   	- image
+
+   3- point_items (Relacionamento dos itens que um ponto coleta) (N para N)
+
+   	- point_id
+   	- item_id
+
+- Criação das tabelas no banco de dados através das migrations (controla o histórico das tabelas no banco de dados)
+
+- Criação das migrations dentro da pasta migrations que fica dentro da pasta database/migrations
+
+- Após a criação das migrations e configurar o arquivo do knexfile.ts na raiz do projeto, rodar o seguinte comando: 
+
+  - npx knex migrate:latest --knexfile knexfile.ts migrate:latest
+
+- 

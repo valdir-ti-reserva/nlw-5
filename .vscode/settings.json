@@ -1,0 +1,10 @@
+{
+  "sqltools.connections": [
+    {
+      "database": "${workspaceFolder:nlw}/server/src/database/database.sqlite",
+      "driver": "SQLite",
+      "name": "nlw",
+      "previewLimit": 200
+    }
+  ]
+}
