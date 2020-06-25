@@ -6,5 +6,6 @@
       "name": "nlw",
       "previewLimit": 200
     }
-  ]
+  ],
+  "sqltools.useNodeRuntime": true
 }

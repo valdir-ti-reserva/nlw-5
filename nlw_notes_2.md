@@ -24,7 +24,7 @@ Back-end da aplicação
 
    4- DELETE: Remover uma informação do back-end
 
-   Ex: 
+   Ex:
 
    POST http://localhost:3333/users  -> Criar um usuário	
 
@@ -89,4 +89,15 @@ Back-end da aplicação
 
   - npx knex migrate:latest --knexfile knexfile.ts migrate:latest
 
-- 
+- Funcionalidades da aplicação
+
+  - Cadastro dos pontos de coleta
+  - Lista de itens de coleta
+  -  Listar pontos (filtro por estado/cidade/items)
+  - Listar um ponto de coleta específico
+
+- Preencher dados com seed.
+
+  - Criar um arquivo chamado create_item.ts na pasta dentro de uma pasta chamada seed que fica dentro da pasta database
+
+- Listando os itens da aplicação
