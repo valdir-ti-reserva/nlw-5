@@ -101,3 +101,9 @@ Back-end da aplicação
   - Criar um arquivo chamado create_item.ts na pasta dentro de uma pasta chamada seed que fica dentro da pasta database
 
 - Listando os itens da aplicação
+
+- Criar um ponto de coleta e associar os itens que esse ponto trabalha
+
+- Listar um ponto específico trazendo os tipos de items que ele trabalha
+
+- Listar pontos pelo parâmetros de query
