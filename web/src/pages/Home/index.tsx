@@ -10,9 +10,7 @@ const Home = () => {
     <div id="page-home">
       <div className="content">
         <header>
-          <Link to="/">
-            <img src={logo} alt="App Coleta"/>
-          </Link>
+          <img src={logo} alt="App Coleta"/>        
         </header>
         <main>
           <h1>Seu marketplace de coleta de resíduos.</h1>
